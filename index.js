@@ -24,20 +24,3 @@ colors.forEach((color) => {
 gearButton.onclick = () => {
     colorcontainer.classList.toggle("right")
 }
-
-
-
-
-
-
-
-// gearButton.onclick = () => {
-//     gearButton.classList.add("right")
-// }
-// gearButton.onclick = () => {
-//     gearButton.classList.remove("right")
-// }
-
-// gearButton.onclick = () => {
-//     gearButton.classList.replace("right", "left")
-// }
