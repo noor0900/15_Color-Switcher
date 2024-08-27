@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow: hidden;
+  background-color:rgba(100, 148, 237, 0.836);
+  box-shadow: 40 20 20px wheat;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 60%;
+  height: 23%;
+  background-color: wheat;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 0 20px black;
+  border-radius: 15px;
+}
+.container h1 {
+  font-size: 75px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: black;
+
+}
+.gear {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: -60px;
+  top: 0px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: wheat;
+
+}
+.gear i {
+  font-size: 38px;
+  color: black;
+}
+
+.btndiv {
+  width: 250px;
+  background-color: wheat;
+  position: absolute;
+  top: 30px;
+  right: -250px;
+  transition: 1s;
+}
+.right {
+  right: 0px;
+}
+.left {
+  left: 100px;
+}
+.color  {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}
+li {
+  list-style: none;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  margin: 5px;
+  font-weight: bold;
+  text-decoration-line: underline;
+  /* border: 1px solid ; */
+  text-underline-offset: 10px;
+}
+.colorparent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  /* transition:1s; */
+
+}
+.color1 {
+  background-color: red;
+}
+.color2 {
+  background-color: blue;
+}
+.color3 {
+  background-color: yellow;
+}
+.color4 {
+  background-color: green;
+}
+.color5 {
+  background-color: purple;
+}
+.color6 {
+  background-color: black;
+}
+.color7 {
+  background-color: orange;
+}
+.color8 {
+  background-color:darkcyan;
+}
+.color9 {
+  background-color: brown;
+}
